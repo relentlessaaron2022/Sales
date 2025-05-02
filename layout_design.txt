@@ -1,0 +1,48 @@
+Website Layout Design: Sales Representative Onboarding Presentation
+
+**Overall Structure:**
+- Single Page Application (SPA) using React.
+- Main layout with a fixed sidebar navigation on the left and content area on the right.
+- Clean, professional theme using Tailwind CSS and shadcn/ui components.
+- Responsive design for accessibility on different devices (desktop, tablet, mobile).
+
+**Sidebar Navigation:**
+- Links corresponding to the main sections in the presentation_outline.md:
+    - Welcome
+    - The Product (DWA)
+    - What You Sell
+    - Sales Toolkit
+        - Overview
+        - Using "The Hit List"
+        - Using Sales Scripts
+    - Lead Generation (Optional)
+    - Bonus Services (Mention Only)
+    - Sales Process & Support
+        - After the Sale
+        - Your Mission
+        - Getting Help
+    - Resource Library
+
+**Content Area:**
+- Displays the content for the selected section from the sidebar.
+- Content will be based on presentation_outline.md.
+- Use clear headings, paragraphs, bullet points (where appropriate from the outline).
+- Incorporate visual elements if possible (though no images were provided, icons can be used).
+- The "Resource Library" section will provide direct download links to the PDF files (`SALES_SCRIPTS_1.pdf`, `the_hit_list_ultimate_traffic_hack.pdf`) located in the `resources` folder.
+
+**Technology Stack:**
+- React (using `create_react_app` template)
+- Tailwind CSS
+- shadcn/ui components
+- Lucide icons
+
+**Development Plan:**
+1.  Initialize React project using `create_react_app`.
+2.  Set up the main layout with sidebar and content area.
+3.  Create React components for each content section.
+4.  Populate components with content from `presentation_outline.md`.
+5.  Implement navigation logic.
+6.  Style the application using Tailwind and shadcn/ui.
+7.  Add links to downloadable resources.
+8.  Test responsiveness and functionality.
+
